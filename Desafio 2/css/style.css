@@ -1,0 +1,71 @@
+/* Ícone: travel_explore ( tamanho de 64 pixel) 
+Cores: #2196F3, #3D5AFE, #0D47A1
+Fonte principal: Verdana
+Altura do cabeçalho: 200 pixel */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fonte-principal: verdana;
+}
+
+header.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 200px;
+    background-image: linear-gradient(to left, #2196F3, #3D5AFE, #0D47A1);
+}
+
+h1.titulo{
+    color: white;
+    font-family: var(--fonte-principal);
+    display: flex;
+}
+
+h4.subtitulo{
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 0.7em;
+    padding-top: 5px;
+}
+
+span.material-icons{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 64px;
+    color: #2196F3;
+}
+
+form.formulario{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    font-family: var(--fonte-principal);
+    padding: 5px 40px 30px 40px;
+}
+
+#Rua, #Bairro, #Cidade, #Estado{
+    margin-top: 3px;
+}
+
+#botao{
+    color: white;
+    background:#2196F3;
+    margin-top: 5px;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 0 5px;
+    border-color: #2196F3;
+}
