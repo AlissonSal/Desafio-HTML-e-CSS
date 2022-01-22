@@ -100,6 +100,10 @@ form.formulario{
     gap: 10px;
 }
 
+input.botao{
+    cursor: pointer;
+}
+
 footer{
     background-color: var(--cor-barra);
     width: 100%;
@@ -113,5 +117,4 @@ h3{
     align-content: center;
     justify-content: center;
     padding-top: 29px;
-    
 }

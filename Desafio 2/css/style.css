@@ -37,9 +37,12 @@ h4.subtitulo{
 }
 
 span.material-icons{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
+    top: 160px;
+    left: 650px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 10px;
     font-size: 64px;
     color: #2196F3;
 }
@@ -51,7 +54,7 @@ form.formulario{
     flex-direction: column;
     width: 400px;
     height: 300px;
-    margin: auto;
+    margin: 50px auto;
     font-family: var(--fonte-principal);
     padding: 5px 40px 30px 40px;
 }
